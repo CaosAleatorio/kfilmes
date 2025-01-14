@@ -53,6 +53,7 @@ footer a:hover {
 .filme-loading {
     text-align: center; /* Centraliza o texto de loading */
     margin-top: 50px; /* Espaçamento acima */
+    min-height: 80vh; /* Altura mínima da página */
 }
 
 /* Estilos para dispositivos móveis */
