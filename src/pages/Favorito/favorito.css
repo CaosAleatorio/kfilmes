@@ -1,0 +1,68 @@
+.my-films {
+    padding: 20px;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    max-width: 800px; /* Largura máxima para o conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    min-height: 100vh; /* Altura mínima da página */
+}
+
+h1 {
+    color: #333; /* Cor do título principal */
+    margin-bottom: 10px;
+    text-align: center; /* Centraliza o título */
+}
+
+span {
+    font-size: 18px; /* Tamanho do texto para os filmes */
+    color: #555; /* Cor do texto dos filmes */
+}
+
+ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove padding padrão */
+}
+
+li {
+    display: flex; /* Exibe os itens em linha */
+    justify-content: space-between; /* Espaço entre o texto e os botões */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Linha divisória entre os filmes */
+}
+
+li:last-child {
+    border-bottom: none; /* Remove a linha divisória do último item */
+}
+
+
+button {
+    background-color: #ff4d4d; /* Cor de fundo do botão de excluir */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove borda padrão */
+    padding: 8px 12px; /* Padding interno do botão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+button:hover {
+    background-color: #ff1a1a; /* Cor do botão ao passar o mouse */
+}
+
+.link {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: #007bff; /* Cor do link */
+}
+
+.link:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+span.empty-message {
+    display: block; /* Exibe a mensagem em bloco */
+    text-align: center; /* Centraliza a mensagem */
+    color: #666; /* Cor do texto da mensagem */
+    margin-top: 20px; /* Espaço acima da mensagem */
+}

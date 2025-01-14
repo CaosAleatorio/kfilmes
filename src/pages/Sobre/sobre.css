@@ -1,0 +1,30 @@
+.sobre-container {
+    padding: 20px;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    margin: 20px auto; /* Centraliza o conteúdo */
+    min-height: 80vh; /* Sombra leve */
+}
+
+h1 {
+    color: #333; /* Cor do título principal */
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #555; /* Cor dos subtítulos */
+    margin-top: 20px;
+}
+
+p {
+    color: #666; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+a {
+    color: #007bff; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}

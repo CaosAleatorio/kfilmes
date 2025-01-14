@@ -1,20 +1,25 @@
-header{
+header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Alinha itens ao longo do eixo principal */
     align-items: center;
     width: 100%;
     height: 60px;
     background-color: #333;
+    padding: 0 30px; /* Adiciona um pouco de padding nas laterais */
 }
 
-.logo{
+.logo {
     text-decoration: none;
     color: aliceblue;
     font-size: 30px;
     font-weight: bold;
 }
 
-.favoritos{
+.nav-links {
+    display: flex; /* Permite que os links sejam exibidos em linha */
+}
+
+.favoritos {
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -22,9 +27,5 @@ header{
     background-color: #fff;
     padding: 5px 14px;
     border-radius: 4px;
+    margin-left: 10px; /* Espaçamento entre os links */
 }
-
-
-
-
-

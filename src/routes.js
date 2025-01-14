@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Favorito from "./pages/Favorito";
 import Erro from "./pages/Erro";
 import Footer from "./components/Footer";
+import Sobre from "./pages/Sobre";
 
 function RoutesApp() {
     return (
@@ -13,8 +14,8 @@ function RoutesApp() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/filme/:id" element={<Filme />} />
-                <Route path="/favorito" element={<Favorito />} />
-
+                <Route path="/favoritos" element={<Favorito />} />
+                <Route path="/sobre" element={<Sobre />} />
 
                 <Route path="*" element={<Erro />} /> 
             </Routes>
